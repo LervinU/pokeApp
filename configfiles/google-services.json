@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "533006448193",
+    "firebase_url": "https://pokeapp-5daf3-default-rtdb.firebaseio.com",
+    "project_id": "pokeapp-5daf3",
+    "storage_bucket": "pokeapp-5daf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:533006448193:android:1fba74e091900f53f5b8c0",
+        "android_client_info": {
+          "package_name": "com.pokeApp.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "533006448193-4f285g9lkjsrjp75idsdbdjs2v6trf13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pokeApp.test",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "533006448193-cs7i8o9unq4306n3eb622norumqomre2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pokeApp.test",
+            "certificate_hash": "ca748da9b30f185c8fcd0771b275b0e6caca1ba4"
+          }
+        },
+        {
+          "client_id": "533006448193-jrofudd18ofub1ogergp80dgiicigfvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pokeApp.test",
+            "certificate_hash": "949baa112fef30ae615f3ab709024c02a26d8358"
+          }
+        },
+        {
+          "client_id": "533006448193-j1ragr5q0m3jqehhr4hrh2i0iqtkksvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhbx4j6DrTt3PikIG39U8BaX2N9paEy9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "533006448193-j1ragr5q0m3jqehhr4hrh2i0iqtkksvv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "533006448193-d0lf5ou58bm4jn5e79q3prjnb5hgnvqb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pokeApp.test"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

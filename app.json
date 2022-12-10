@@ -18,16 +18,42 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "googleServicesFile": "./configfiles/GoogleService-Info.plist",
+      "bundleIdentifier": "com.pokeApp.test"
     },
     "android": {
+      "googleServicesFile": "./configfiles/google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.pokeApp.test"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-google-signin/google-signin",
+      [
+        "expo-build-properties",
+      {
+        "android": {
+          "compileSdkVersion": 31,
+          "targetSdkVersion": 31,
+          "buildToolsVersion": "31.0.0"
+        },
+        "ios": {
+          "deploymentTarget": "13.0"
+        }
+      }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "04d6e3a5-1ee7-4039-8deb-3da3f0828cb7"
+      }
     }
   }
 }
